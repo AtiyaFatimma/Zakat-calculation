@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.arabic {
+  font-family: 'Noto Naskh Arabic', serif;
+}
+
+.urdu {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
