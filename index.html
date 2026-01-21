@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zakat Tracker</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2D6A4F">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-900 transition-colors duration-300">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
 </body>
 </html>
