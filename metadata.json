@@ -1,0 +1,5 @@
+{
+  "name": "Zakat & Sadaqah Tracker",
+  "description": "A comprehensive Progressive Web App for Muslims to calculate zakat, track assets, log charitable donations, and generate reports with multi-language and RTL support.",
+  "requestFramePermissions": []
+}
