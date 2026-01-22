@@ -1,26 +1,42 @@
 {
-  "name": "Zakat Tracker - Islamic Charity App",
-  "short_name": "Zakat Tracker",
-  "description": "Calculate zakat, track assets, and manage charitable donations",
+  "name": "Zakat Tracker",
+  "short_name": "Zakat",
+  "description": "Track and calculate your Zakat obligations easily",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2D6A4F",
   "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["finance", "utilities", "productivity"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "dir": "auto"
+  "shortcuts": [],
+  "screenshots": []
 }
